@@ -1,9 +1,9 @@
-# dl
-PHP版本 短链接
+# PHP版本 短链接
+
 
 本短链接系统基于  Thinkphp V5.0.24 开发，PHP版本仅测试了PHP 5.4版本
 
-一、API接口：
+**一、API接口：**
 1.生成短链接 
 
 GET请求接口：http://www.d6sy.com/add.php
@@ -23,13 +23,13 @@ GET请求接口：http://www.d6sy.com/MqQw
 程序内通过302跳转重定向至：http://www.baidu.com
 
 
-二、注意事项：
+**二、注意事项：**
 
 网站根目录：dl/public（需配置根目录为public）
 
 数据库配置路径：dl/application/database.php
 
-三、数据库表：
+**三、数据库表：**
 
 CREATE TABLE `c_dl`  (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ID',
