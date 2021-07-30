@@ -4,6 +4,7 @@
 本短链接系统基于  Thinkphp V5.0.24 开发，PHP版本仅测试了PHP 5.4版本
 
 **一、API接口：**
+
 1.生成短链接 
 
 GET请求接口：http://www.d6sy.com/add.php
@@ -15,6 +16,7 @@ GET请求接口：http://www.d6sy.com/add.php
 
 
 返回值：url对应的数据库记录的ID（id为主键自增长），ID会进行一层加密处理，如：1 转换为：MqQw
+
 
 2.访问短链接
 
