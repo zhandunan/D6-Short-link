@@ -18,6 +18,7 @@ GET请求接口：http://www.d6sy.com/add.php
 返回值：url对应的数据库记录的ID（id为主键自增长），ID会进行一层加密处理，如：1 转换为：MqQw
 
 
+
 2.访问短链接
 
 GET请求接口：http://www.d6sy.com/MqQw
@@ -25,11 +26,16 @@ GET请求接口：http://www.d6sy.com/MqQw
 程序内通过302跳转重定向至：http://www.baidu.com
 
 
+
+
 **二、注意事项：**
 
 网站根目录：dl/public（需配置根目录为public）
 
 数据库配置路径：dl/application/database.php
+
+
+
 
 **三、数据库表：**
 
