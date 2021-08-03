@@ -7,11 +7,11 @@
 
 1.生成短链接 
 
-GET请求接口：http://www.d6sy.com/add.php
+GET请求接口：http://d.d6sy.com/add.php
 
 上送参数：url=http://www.baidu.com
 
-示例：http://www.d6sy.com/add.php?url=http://www.baidu.com
+示例：http://d.d6sy.com/add.php?url=http://www.baidu.com
 
 
 
@@ -21,7 +21,7 @@ GET请求接口：http://www.d6sy.com/add.php
 
 2.访问短链接
 
-GET请求接口：http://www.d6sy.com/MqQw
+GET请求接口：http://d.d6sy.com/MqQw
 
 程序内通过302跳转重定向至：http://www.baidu.com
 
