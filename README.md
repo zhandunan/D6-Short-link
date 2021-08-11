@@ -30,7 +30,7 @@ GET请求接口：http://d.d6sy.com/MqQw
 
 **二、注意事项：**
 
-网站根目录：dl/public（需配置根目录为public）
+网站运行目录：dl/public（需配置根目录为public）
 
 数据库配置路径：dl/application/database.php
 
